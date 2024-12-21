@@ -117,7 +117,7 @@ python AcquireAndDisplay.py
 ![image](https://github.com/user-attachments/assets/9ecf8e40-f2cc-4458-afad-83f7c58e243e)
 
 ## 5. Result
-해당 프로젝트의 목표는 물체의 결함 탐지인데, 기어와 프레임을 대상으로 해당 과업의 수행 가능성을 검토하였습니다. 
+해당 프로젝트의 목표는 물체의 결함 탐지인데, 기어와 프레임을 대상으로 해당 과업의 수행 가능성을 검토하였고, 이 시스템에 대한 몇가지 문제를 개선한다면 충분히 달성 가능한 목표임을 확인하였습니다. 
 
 ![image](https://github.com/user-attachments/assets/8e596bf0-e64b-447a-90ca-262669f0c03b)
 
