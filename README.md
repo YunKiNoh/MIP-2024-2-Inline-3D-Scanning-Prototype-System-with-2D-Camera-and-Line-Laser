@@ -64,5 +64,37 @@ cd "AcquireAndDisplay.py이 있는 경로"
 ```
 python AcquireAndDisplay.py
 ```
-## 3. 
+
+## 3. Hardware
+본 프로젝트에서는 크게 세가지 하드웨어가 사용되었습니다.
+### 3.1. 2D Machine Vision Camera[GS3-U3-41C6NIR-C]
+- Sensor: CMOSIS CMV4000, 1" format, progressive scan CMOS sensor.
+- Resolution: 4.2 megapixels (2048 x 2048).
+- Pixel Size: 5.5 µm x 5.5 µm.
+- Sensing Area: 11.26 mm x 11.26 mm.
+- Frame Rate: Up to 90 frames per second (fps).
+- Shutter Type: Global shutter, ideal for capturing fast-moving objects without distortion.
+- Pixel Depth: Supports 8, 12, and 16-bit output formats.
+- Interface: USB 3.0 for high-speed data transfer.
+- Exposure Time: Adjustable from 16 µs to 7.03 seconds, offering flexibility for various lighting conditions.
+- Buffer Memory: 128 MB image buffer to help manage image transfer efficiently.
+### 3.2. Telecentric Lens [TCL0.3X-130I-HR]
+- Mag: 0.3X
+- W.D(mm): 130
+- Resolution(um): 17.7
+- N.A: 0.019	
+- F/#: 7.9
+- D.O.F(mm): 7
+- Telecentricity(Degree): 0.04
+- Optical Distortion(%): 0.08
+- Sensor Size(mm)(Diagonal Length): 2/3"(11mm)	
+- Mount: C
+### 3.3. Line Laser [Laser ZX20 450nm 60mW 30degree]
+- Wavelength: 450nm
+- Line width: Aapproximately "0.03[mm]~0.2[mm]" at the distance of "100[mm] ~ 700[mm]"
+- DOF: Approximately "0[mm] ~ 80[mm]" at the distance of "100[mm] ~ 700[mm]"
+- Input Line: VCC[Brown], GND[Blue], DIG[White], ANA[Black]
+- Output Line: FAIL[Gray]
+
+
 
