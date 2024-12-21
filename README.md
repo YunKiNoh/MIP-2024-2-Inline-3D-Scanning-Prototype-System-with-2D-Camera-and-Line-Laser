@@ -11,7 +11,7 @@
 
 ### 2.1. Make Virtual Environment for Python 3.8
 Pyspin 활용을 위해 Python 3.8을 기반으로 하는 가상환경을 아나콘다에서 구축합니다.
-- command prompt: conda create -n py38 python=3.8
+- anaconda prompt: conda create -n py38 python=3.8
 
 ### 2.2. Install 'Pillow==7.0.0' in the Command Prompt
 명령프롬프트를 관리자 권한으로 실행하여서 Python 3.5~3.8버전을 위한 파일인 'Pillow==7.0.0'를 설치합니다.
