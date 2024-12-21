@@ -112,7 +112,7 @@ python AcquireAndDisplay.py
 ![image](https://github.com/user-attachments/assets/8e596bf0-e64b-447a-90ca-262669f0c03b)
 
 ## 6. Limitations and Suggestions
-그러나 이 프로젝트에서는 몇가지 문제점이 있습니다. 두 문제 모두 3D Scanning Result의 거리 왜곡을 발생시킵니다. 첫번째는 컨베이어 벨트의 불안정한 속도 문제 이며, 두번째는 레이저가 기울어진 각도로 인해 발생하는 문제입니다.
+그러나 이 프로젝트에서는 몇가지 문제점이 있습니다. 두 문제 모두 3D Scanning Result의 거리 왜곡을 발생시킵니다. 첫번째는 컨베이어 벨트의 불안정한 속도로 인해 발생하는 문제이며, 두번째는 레이저가 기울어진 각도로 인해 발생하는 문제입니다.
 
 ### 6.1.Unstable Velocity of The Conveyor Belt
 ![image](https://github.com/user-attachments/assets/2d1acdcb-81a5-49c0-852c-a93518d05cdf)
