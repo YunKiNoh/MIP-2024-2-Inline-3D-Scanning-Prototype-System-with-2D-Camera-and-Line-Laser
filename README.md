@@ -11,12 +11,14 @@
 
 ### 2.1. Make Virtual Environment for Python 3.8
 Pyspin 활용을 위해 Python 3.8을 기반으로 하는 가상환경을 아나콘다에서 구축합니다.
-- anaconda prompt: conda create -n py38 python=3.8
-
+```Anadonda
+conda create -n py38 python=3.8
+```
 ### 2.2. Install 'Pillow==7.0.0' in the Command Prompt
 명령프롬프트를 관리자 권한으로 실행하여서 Python 3.5~3.8버전을 위한 파일인 'Pillow==7.0.0'를 설치합니다.
-command prompt: -m pip install Pillow==7.0.0
-
+```
+-m pip install Pillow==7.0.0
+```
 ### 2.3. Download Spinnaker SDK Files
 Pyspin을 다운로드 받기 위해서는 'Teledyne FLIR'에서 제공하는 'Spinnaker SDK' 파일을 다운로드 받아야 합니다. 이를 위해 다음을 수행합니다.
 
@@ -32,14 +34,17 @@ zip파일을 unzip한 후에 노트북 사양에 맞게 'SpinnakerSDK_FULL_2.6.0
 conda activate py38
 ```
 Pyspin 다운로드를 위해 Pyspin 폴더에 들어가 'spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.zip' 파일을 압축풀기 합니다. 해당 폴더에 들어가면, 'spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.whl' 설치 파일이 있음을 확인할 수 있습니다. 그러고 나서 아나콘다 프롬프트에서 'spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.whl'을 다운로드 하기 위해 해당 파일이 있는 경로로 이동합니다.
-- anaconda: cd "spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.whl가 있는 경로"
-  
+```
+anaconda: cd "spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.whl가 있는 경로"
+```
 이후에 해당 파일을 python 3.8 가상환경에서 다운로드 합니다.
-- anaconda: python -m pip install spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.whl
-  
+```
+python -m pip install spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.whl
+  ```
 가상환경 안에서 'spinnaker-python 2.6.0.160'가 잘 설치되었는지 확인합니다. 리스트 안에 'spinnaker-python 2.6.0.160'가 있으면 성공.
-- andaconda: pip list
-
+```
+andaconda: pip list
+```
 ### 2.5. Execute example code to check working of machine vision camera in the python.
 'Examples' 폴더를 지나 'Python3'에 있는 'AcquireAndDisplay.py'를 실행해서 카메라를 통해 이미지를 얻어봅니다.
 
