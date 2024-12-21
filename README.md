@@ -46,17 +46,7 @@ python -m pip install spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.whl
 ```
 pip list
 ```
-Anticipated Result
-```
-[Anaconda Prompt]
-Package                Version
----------------------- -----------
-...                    ...
-spinnaker-python       2.6.0.160
-...                    ...
 
-(py38) C: \...
-```
 ### 2.5. Execute example code to check working of machine vision camera in the python.
 'Examples' 폴더를 지나 'Python3'에 있는 'AcquireAndDisplay.py'를 실행해서 카메라를 통해 이미지를 얻어봅니다.
 ```
