@@ -15,7 +15,7 @@ Pyspin 활용을 위해 Python 3.8을 기반으로 하는 가상환경을 아나
 
 ### 2.2. Install 'Pillow==7.0.0' in the Command Prompt
 명령프롬프트를 관리자 권한으로 실행하여서 Python 3.5~3.8버전을 위한 파일인 'Pillow==7.0.0'를 설치합니다.
-- command prompt: -m pip install Pillow==7.0.0
+command prompt: -m pip install Pillow==7.0.0
 
 ### 2.3. Download Spinnaker SDK Files
 Pyspin을 다운로드 받기 위해서는 'Teledyne FLIR'에서 제공하는 'Spinnaker SDK' 파일을 다운로드 받아야 합니다. 이를 위해 다음을 수행합니다.
@@ -28,8 +28,8 @@ zip파일을 unzip한 후에 노트북 사양에 맞게 'SpinnakerSDK_FULL_2.6.0
 
 ### 2.4. Install Pyspin Library
 이제부터는 이전에 만든 Python 3.8 버전의 가상환경에서 파일 설치를 진행합니다. 이를 위해 py38 가상환경을 켜줍니다.
-```
-- conda activate py38
+```Anadonda
+conda activate py38
 ```
 Pyspin 다운로드를 위해 Pyspin 폴더에 들어가 'spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.zip' 파일을 압축풀기 합니다. 해당 폴더에 들어가면, 'spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.whl' 설치 파일이 있음을 확인할 수 있습니다. 그러고 나서 아나콘다 프롬프트에서 'spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.whl'을 다운로드 하기 위해 해당 파일이 있는 경로로 이동합니다.
 - anaconda: cd "spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.whl가 있는 경로"
