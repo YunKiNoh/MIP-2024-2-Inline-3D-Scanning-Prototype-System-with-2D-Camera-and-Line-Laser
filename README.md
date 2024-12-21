@@ -35,7 +35,7 @@ conda activate py38
 ```
 Pyspin 다운로드를 위해 Pyspin 폴더에 들어가 'spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.zip' 파일을 압축풀기 합니다. 해당 폴더에 들어가면, 'spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.whl' 설치 파일이 있음을 확인할 수 있습니다. 그러고 나서 아나콘다 프롬프트에서 'spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.whl'을 다운로드 하기 위해 해당 파일이 있는 경로로 이동합니다.
 ```
-anaconda: cd "spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.whl가 있는 경로"
+cd "spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.whl가 있는 경로"
 ```
 이후에 해당 파일을 python 3.8 가상환경에서 다운로드 합니다.
 ```
