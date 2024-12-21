@@ -110,6 +110,5 @@ python AcquireAndDisplay.py
 
 ### 4.2. 3D_Scanning.py
 
-![image](https://github.com/user-attachments/assets/5ef6ce1c-1ebd-477e-9450-4e3ce3ceea11)
-![image](https://github.com/user-attachments/assets/148341c8-149e-42d5-8bb7-e8863f3e9d76)
+![Uploading image.png…]()
 
