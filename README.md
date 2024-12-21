@@ -58,7 +58,11 @@ spinnaker-python       2.6.0.160
 ```
 ### 2.5. Execute example code to check working of machine vision camera in the python.
 'Examples' 폴더를 지나 'Python3'에 있는 'AcquireAndDisplay.py'를 실행해서 카메라를 통해 이미지를 얻어봅니다.
-
-
+```
+cd "AcquireAndDisplay.py이 있는 경로"
+```
+```
+python AcquireAndDisplay.py
+```
 ## 3. 
 
