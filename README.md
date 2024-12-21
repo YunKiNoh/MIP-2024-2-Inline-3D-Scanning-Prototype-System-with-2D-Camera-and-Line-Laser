@@ -46,7 +46,7 @@ python -m pip install spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.whl
 pip list
 ```
 ```
-[Anticipated Result]
+[Anaconda Prompt]
 Package                Version
 ---------------------- -----------
 ...                    ...
