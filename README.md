@@ -65,8 +65,8 @@ cd "AcquireAndDisplay.py이 있는 경로"
 python AcquireAndDisplay.py
 ```
 
-## 3. Hardware
-본 프로젝트에서는 크게 세가지 하드웨어가 사용되었습니다.
+## 3. Specifications of Hardware
+본 프로젝트에서는 크게 세가지 하드웨어가 사용되었습니다. [2D Camera, Telecentric Lens, Line Laser]
 ### 3.1. 2D Machine Vision Camera[GS3-U3-41C6NIR-C]
 - Sensor: CMOSIS CMV4000, 1" format, progressive scan CMOS sensor.
 - Resolution: 4.2 megapixels (2048 x 2048).
@@ -96,5 +96,9 @@ python AcquireAndDisplay.py
 - Input Line: VCC[Brown], GND[Blue], DIG[White], ANA[Black]
 - Output Line: FAIL[Gray]
 
-
+## 4. Description of Each Code
+3D Scanning Prototype System을 위해 총 두가지의 코드가 사용됩니다. 첫번째는 라인 레이저의 초기 위치를 맞추기 위한 코드, 두번째는 Automatic 3D Scanning을 위한 코드입니다.
+### 4.1. InitialLine_Fitting_375x375.py
+해당 코드는 '카메라 접속', '카메라를 통해 원본 이미지 받기', 그리고' 라인 레이저를 이미지 프로세싱한 뒤에 Initial Line에 맞추기'를 수행합니다.
+특히, Line Laser의 물리적 각도는 해당 Initial Line과 Fine line이 곂쳐져서 최대한 Height Value'가 0.00에 근접할 수 있도록 조정합니다.
 
