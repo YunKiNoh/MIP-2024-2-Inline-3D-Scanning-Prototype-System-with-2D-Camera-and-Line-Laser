@@ -103,12 +103,22 @@ python AcquireAndDisplay.py
 ## 4. Description of Each Code
 3D Scanning Prototype System을 위해 총 두가지의 코드가 사용됩니다. 첫번째는 라인 레이저의 초기 위치를 맞추기 위한 코드, 두번째는 Automatic 3D Scanning을 위한 코드입니다.
 ### 4.1. InitialLine_Fitting_375x375.py
-해당 코드는 '카메라 접속', '카메라를 통해 원본 이미지 받기', 그리고' 라인 레이저를 이미지 프로세싱한 뒤에 Initial Line에 맞추기'를 수행합니다.
+해당 코드는 기초 세팅을 위해 잠시 활용하는 것으로써, '카메라 접속', '카메라를 통해 원본 이미지 받기', 그리고' 라인 레이저를 이미지 프로세싱한 뒤에 Initial Line에 맞추기'를 수행합니다.
 특히, Line Laser의 물리적 각도는 해당 Initial Line과 Fine line이 곂쳐져서 최대한 Height Value'가 0.00에 근접할 수 있도록 조정합니다.
 
 ![image](https://github.com/user-attachments/assets/47c5d285-7b68-4c7c-8d5c-94b92ccde0fc)
 
 ### 4.2. 3D_Scanning.py
+본 코드에서 3D 스캐닝을 진행합니다. 카메라의 최대 해상도는 2048x2048이나 메모리 부족 문제로 인하여 375x375 해상도로 낮춰, 0.1mm 단위의 3D Scanning을 수행하였습니다. 
+또한 높이 값을 바탕으로 어떤 점이라도 3D Scanning Result에 반영이 가능하지만, 해당 시스템의 전체적인 파악을 위해, threshold 값을 걸어 바닥으로 인식하는 capture image의 경우 plot에 반영하지 않았습니다.
+그렇기 때문에 해당 코드는 바닥만 인식하는 경우 3D 스캐닝을 진행하지 않으며, 물체를 인식하는 동안 3D 스캐닝을 진행한 후, 다시 바닥만 인식하면 3D 스캐닝을 멈춥니다.
+다만, 이 코드는 시연을 위한 코드로써, 모든 데이터를 스캐닝 결과에 반영하기 위해서는 해당 코드를 바탕으로 추가적인 코드 작성 및 메모리 부족 문제를 다루어야 할 것입니다.
+
 ![image](https://github.com/user-attachments/assets/9ecf8e40-f2cc-4458-afad-83f7c58e243e)
+
+## 5. Result
+해당 프로젝트의 목표는 물체의 결함 탐지인데, 기어와 프레임을 대상으로 해당 과업의 수행 가능성을 검토하였습니다. 
+
+![image](https://github.com/user-attachments/assets/8e596bf0-e64b-447a-90ca-262669f0c03b)
 
 
