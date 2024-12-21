@@ -1,0 +1,11 @@
+Model	: TCL0.3X-130I-HR
+Mag: 0.3X
+W.D(mm): 130
+Resolution(um): 17.7
+N.A: 0.019	
+F/#: 7.9
+D.O.F(mm): 7
+Telecentricity(Degree): 0.04
+Optical Distortion(%): 0.08
+Sensor Size(mm)(Diagonal Length): 2/3"(11mm)	
+Mount: C			
