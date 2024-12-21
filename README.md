@@ -23,7 +23,7 @@ conda create -n py38 python=3.8
 Pyspin을 다운로드 받기 위해서는 'Teledyne FLIR'에서 제공하는 'Spinnaker SDK' 파일을 다운로드 받아야 합니다. 이를 위해 다음을 수행합니다.
 
 #### 2.3.1. 아이디 만들기
-[link: https://www.teledynevisionsolutions.com/support/support-center/software-firmware-downloads/iis/spinnaker-sdk-download/spinnaker-sdk--download-files/?pn=Spinnaker+SDK&vn=Spinnaker+SDK]
+[Link: https://www.teledynevisionsolutions.com/support/support-center/software-firmware-downloads/iis/spinnaker-sdk-download/spinnaker-sdk--download-files/?pn=Spinnaker+SDK&vn=Spinnaker+SDK]
 
 #### 2.3.2. 해당 페이지 맨 밑의 'Previous Version'에서 'Version 2.6.0.160'을 다운로드 받습니다. (해당 프로젝트에서는 'Spinnaker-2.6.0.160-Windows').
 
