@@ -31,6 +31,7 @@ zip파일을 unzip한 후에 노트북 사양에 맞게 'SpinnakerSDK_FULL_2.6.0
 
 ### 2.4. Install Pyspin Library
 이제부터는 이전에 만든 Python 3.8 버전의 가상환경에서 설치를 진행합니다. 이를 위해 py38 가상환경을 켜줍니다.
+
 -> conda activate py38
 
 #### 2.4.1. Unzip 'spinnaker_python-2.6.0.160-cp38-cp38-win_amd64' file
