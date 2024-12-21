@@ -109,7 +109,6 @@ python AcquireAndDisplay.py
 ![image](https://github.com/user-attachments/assets/47c5d285-7b68-4c7c-8d5c-94b92ccde0fc)
 
 ### 4.2. 3D_Scanning.py
-<div align="center">
-![image](https://github.com/user-attachments/assets/e1fc918e-e740-4c09-abb8-de5bf18ca9d6)
-</div>
+![image](https://github.com/user-attachments/assets/9ecf8e40-f2cc-4458-afad-83f7c58e243e)
+
 
