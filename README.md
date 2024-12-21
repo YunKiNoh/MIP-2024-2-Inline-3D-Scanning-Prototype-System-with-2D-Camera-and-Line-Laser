@@ -41,9 +41,14 @@ cd "spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.whl가 있는 경로"
 ```
 python -m pip install spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.whl
   ```
-가상환경 안에서 'spinnaker-python 2.6.0.160'가 잘 설치되었는지 확인합니다. 리스트 안에 'spinnaker-python 2.6.0.160'가 있으면 성공.
+가상환경 안에서 'spinnaker-python 2.6.0.160'가 잘 설치되었는지 확인합니다. 리스트 안에 'spinnaker-python / 2.6.0.160'가 있으면 성공.
 ```
-andaconda: pip list
+pip list
+```
+```
+Package                Version
+---------------------- -----------
+spinnaker-python       2.6.0.160
 ```
 ### 2.5. Execute example code to check working of machine vision camera in the python.
 'Examples' 폴더를 지나 'Python3'에 있는 'AcquireAndDisplay.py'를 실행해서 카메라를 통해 이미지를 얻어봅니다.
