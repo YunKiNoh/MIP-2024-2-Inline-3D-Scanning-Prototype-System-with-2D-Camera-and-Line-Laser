@@ -111,4 +111,6 @@ python AcquireAndDisplay.py
 
 ![image](https://github.com/user-attachments/assets/8e596bf0-e64b-447a-90ca-262669f0c03b)
 
+## 6. Limitations and Suggestions
+
 
