@@ -21,7 +21,7 @@ Pyspin을 다운로드 받기 위해서는 'Teledyne FLIR'에서 제공하는 'S
 
 #### 2.3.1. Make ID for Download
 해당 페이지에서 파일을 다운로드 받으려면 아이디를 만들어서 접속하여야 합니다. 해당 링크에서 아이디를 만든 후 다시 접속합니다. 
-Line: https://www.teledynevisionsolutions.com/support/support-center/software-firmware-downloads/iis/spinnaker-sdk-download/spinnaker-sdk--download-files/?pn=Spinnaker+SDK&vn=Spinnaker+SDK
+Link: https://www.teledynevisionsolutions.com/support/support-center/software-firmware-downloads/iis/spinnaker-sdk-download/spinnaker-sdk--download-files/?pn=Spinnaker+SDK&vn=Spinnaker+SDK
 
 #### 2.3.2. Download 'Spinnaker-2.6.160-Windows' file
 해당 페이지 맨 밑의 'Previous Version'에서 'Version 2.6.0.160'을 다운로드 받습니다. (해당 프로젝트에서는 'Spinnaker-2.6.0.160-Windows').
