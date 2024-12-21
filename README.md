@@ -10,10 +10,12 @@
 
 ### 2.1. Make Virtual Environment for Python 3.8
 Pyspin 활용을 위해 Python 3.8을 기반으로 하는 가상환경을 아나콘다에서 구축합니다.
+
 -> conda create -n py38 python=3.8
 
 ### 2.2. Install 'Pillow==7.0.0' in the Command Prompt
 명령프롬프트를 관리자 권한으로 실행하여서 Python 3.5~3.8버전을 위한 파일인 'Pillow==7.0.0'를 설치합니다.
+
 -> -m pip install Pillow==7.0.0
 
 ### 2.3. Download Spinnaker SDK Files
@@ -39,14 +41,17 @@ Pyspin 다운로드를 위해 Pyspin 폴더에 들어가 'spinnaker_python-2.6.0
 
 #### 2.4.2. Change the path of anaconda into the path of the place where 'spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.whl' is located.
 아나콘다 프롬프트에서 'spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.whl'을 다운로드 하기 위해 해당 파일이 있는 경로로 이동합니다.
+
 -> cd "spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.whl가 있는 경로"
 
 #### 2.4.3. Download 'spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.whl' in the virtual environment.
 해당 파일을 python 3.8 버전에서 다운로드 합니다.
+
 -> python -m pip install spinnaker_python-2.6.0.160-cp38-cp38-win_amd64.whl
 
 #### 2.4.4. Check the download state of 'spinnaker-python 2.6.0.160'
 가상환경 안에서 'spinnaker-python 2.6.0.160'가 잘 설치되었는지 확인합니다. 리스트 안에 'spinnaker-python 2.6.0.160'가 있으면 성공.
+
 -> pip list
 
 ### 2.5. Execute example code to check working of machine vision camera in the python.
