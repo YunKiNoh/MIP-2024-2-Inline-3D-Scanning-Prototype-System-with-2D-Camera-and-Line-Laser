@@ -57,7 +57,7 @@ python AcquireAndDisplay.py
 ```
 
 ## 3. Specifications of Hardware
-본 프로젝트에서는 크게 세가지 하드웨어가 사용되었습니다. [2D Camera, Telecentric Lens, Line Laser]
+본 프로젝트에서는 크게 세가지 하드웨어가 사용되었습니다: 2D Camera, Telecentric Lens, Line Laser
 
 ![image](https://github.com/user-attachments/assets/389dbdfe-5697-4ba5-ab6d-753c8598f11a)
 
