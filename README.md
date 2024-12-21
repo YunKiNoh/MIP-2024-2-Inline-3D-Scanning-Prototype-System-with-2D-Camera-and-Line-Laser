@@ -25,9 +25,11 @@ Pyspin을 다운로드 받기 위해서는 'Teledyne FLIR'에서 제공하는 'S
 #### 2.3.1. 아이디 만들기
 [Link: https://www.teledynevisionsolutions.com/support/support-center/software-firmware-downloads/iis/spinnaker-sdk-download/spinnaker-sdk--download-files/?pn=Spinnaker+SDK&vn=Spinnaker+SDK]
 
-#### 2.3.2. 해당 페이지 맨 밑의 'Previous Version'에서 'Version 2.6.0.160'을 다운로드 받습니다. (해당 프로젝트에서는 'Spinnaker-2.6.0.160-Windows').
+#### 2.3.2. Download 'Version 2.6.0.160'
+해당 페이지 맨 밑의 'Previous Version'에서 'Version 2.6.0.160'을 다운로드 받습니다. (해당 프로젝트에서는 'Spinnaker-2.6.0.160-Windows').
 
-#### 2.3.3. zip파일을 unzip한 후에 노트북 사양에 맞게 'SpinnakerSDK_FULL_2.6.0.160_x.exe' 파일을 골라 설치해줍니다. (본 노트북에서는 'SpinnakerSDK_FULL_2.6.0.160_64.exe')
+#### 2.3.3. Install 'SpinnakerSDK_FULL_2.6.0.160_x.exe'
+zip파일을 unzip한 후에 노트북 사양에 맞게 'SpinnakerSDK_FULL_2.6.0.160_x.exe' 파일을 골라 설치해줍니다. (본 노트북에서는 'SpinnakerSDK_FULL_2.6.0.160_64.exe')
 
 ### 2.4. Install Pyspin Library
 이제부터는 이전에 만든 Python 3.8 버전의 가상환경에서 파일 설치를 진행합니다. 이를 위해 py38 가상환경을 켜줍니다.
