@@ -115,7 +115,7 @@ python AcquireAndDisplay.py
 ### 6.1.Unstable Velocity of The Conveyor Belt
 ![image](https://github.com/user-attachments/assets/2d1acdcb-81a5-49c0-852c-a93518d05cdf)
 ### 6.2. Slope Distortion
-![image](https://github.com/user-attachments/assets/53ed9679-9458-4155-a5db-2901f636a788)
+![image](https://github.com/user-attachments/assets/0ffbf21c-294a-4e9e-8105-7e3eb4a9ca5d)
 
 
 
