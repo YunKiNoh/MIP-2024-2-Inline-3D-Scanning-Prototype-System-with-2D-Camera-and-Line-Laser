@@ -1,0 +1,5 @@
+Pin1[VCC]: Brown
+Pin2[DIG]: White
+Pin3[GND]: Blue
+Pin4[ANA]: Black
+Pin5[FAIL]: Gray
