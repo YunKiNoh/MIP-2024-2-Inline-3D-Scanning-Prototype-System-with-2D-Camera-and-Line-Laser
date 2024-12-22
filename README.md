@@ -3,7 +3,7 @@
 ## 1. Introdution
 본 Repository는 2024년 2학기에 진행된 기전융합종합 설계[Inline 3D Scanning Prototype System for Industrial Part Inspection with 2D Camera and Line Laser]에 대한 전반적인 설명 및 가이드라인 제공을 위해 제작되었습니다.
 
-연구목적: Optical 3D Scanning 중에서 'Laser Triangulation Method'는 가장 높은 정밀도(마이크로미터 단위)를 바탕으로 'Defect Inspection for Industrial Small Parts'를 위해서 사용되고 있습니다. 이 방식은 3D 카메라를 통해서 이루어져 왔는데, 이러한 장비는 높인 비용으로 인해 산업 이외의 용도로는 쓰기 힘든 상황입니다. 하지만 'Laser Triangulation Method'를 기반으로 2D 카메라와 Line Laser의 결합을 통해 3D Scanning System 구현한다면, 더 저렴한 비용에서 해당 장비를 활용할 수 있을 것입니다. 이러한 판단 가운데, 본 프로젝트는 2D Machine Vision Camera, Line Laser, Telecentric Lens, Conveyor Belt를 활용하여 작은 산업 부품에 대한 결함 감지 달성을 목표로 두어서, 3D Scanning System 구축을 계획 및 수행하였습니다.
+연구목적: Optical 3D Scanning 중에서 'Laser Triangulation Method'는 가장 높은 정밀도(마이크로미터 단위)를 바탕으로 'Defect Inspection for Industrial Small Parts'를 위해서 사용되고 있습니다. 이 방식은 3D 카메라를 통해서 이루어져 왔는데, 높은 비용으로 인해 산업 이외의 용도로는 쓰기 힘든 상황입니다. 하지만 'Laser Triangulation Method'를 기반으로 2D 카메라와 Line Laser의 결합을 통해 3D Scanning System 구현한다면, 더 저렴한 비용에서 해당 장비를 활용할 수 있을 것입니다. 이러한 판단 가운데, 본 프로젝트는 2D Machine Vision Camera, Line Laser, Telecentric Lens, Conveyor Belt를 활용하여 작은 산업 부품에 대한 결함 감지 달성을 목표로 두어서, 3D Scanning System 구축을 계획 및 수행하였습니다.
 
 
 ## 2. Build up Software Environment
