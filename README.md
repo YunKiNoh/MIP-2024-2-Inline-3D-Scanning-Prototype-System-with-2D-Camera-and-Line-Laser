@@ -1,6 +1,6 @@
 # MIP_2024_2_Inline 3D Scanning Prototype System for Industrial Part Inspection with 2D Camera and Line Laser
 
-[Video Clip about this project: [Youttube Video Clip](]https://youtu.be/qDphttrqtq8)]
+[Video Clip about this project:[Youttube Video Clip](]https://youtu.be/qDphttrqtq8)]
 
 ## 1. Introdution
 본 Repository는 2024년 2학기에 진행된 기전융합종합 설계[Inline 3D Scanning Prototype System for Industrial Part Inspection with 2D Camera and Line Laser]에 대한 전반적인 설명 및 가이드라인 제공을 위해 제작되었습니다.
