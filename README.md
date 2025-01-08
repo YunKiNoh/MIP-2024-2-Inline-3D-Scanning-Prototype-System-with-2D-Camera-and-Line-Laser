@@ -1,4 +1,4 @@
-# MIP_2024_2_Inline 3D Scanning Prototype System for Industrial Part Inspection with 2D Camera and Line Laser
+# MIP-2024-2_Inline 3D Scanning Prototype System for Industrial Part Inspection with 2D Camera and Line Laser
 
 **Video Clip about this project**: https://youtu.be/qDphttrqtq8
 
