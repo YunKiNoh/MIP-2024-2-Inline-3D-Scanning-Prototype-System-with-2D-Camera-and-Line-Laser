@@ -9,7 +9,7 @@
 
 
 ## 2. Build Up Software Environment
-이 프로젝트는 파이썬 환경에서 개발되었습니다. 이때 머신 비전 카메라를 파이썬에서 사용하기 위해서는 'Teledyne FLIR'에서 제공하는 'Spinnaker SDK' 파일을 통해 'Pyspin' 라이브러리를 다운로드 받아야 합니다. 해당 Section에서는 'Pyspin'을 설치하고 머신비전 2D 카메라('GS3-U3-41C6NIR-C')가 파이썬에서 잘 작동하는 것까지 확인할 수 있도록 환경구축 가이드를 제공하려고 합니다.
+이 프로젝트는 파이썬 환경에서 개발되었습니다. 이때 머신 비전 카메라를 파이썬에서 사용하기 위해서는 'Teledyne FLIR'에서 제공하는 'Spinnaker SDK' 파일을 통해 'Pyspin' 라이브러리를 다운로드 받아야 합니다. 본 Section에서는 'Pyspin'을 설치하고 머신비전 2D 카메라('GS3-U3-41C6NIR-C')가 파이썬에서 잘 작동하는 것까지 확인할 수 있도록 환경구축 가이드를 제공하려고 합니다.
 
 ### 2.1. Make Up Virtual Environment for Python 3.8
 Pyspin 활용을 위해 Python 3.8을 기반으로 하는 가상환경을 아나콘다에서 구축합니다.
